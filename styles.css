@@ -1,0 +1,936 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: auto;
+    background-color: rgb(10, 10, 10);
+}
+header{
+    background-color: black;
+    display: flex;
+    border: blanchedalmond 1px solid;
+    
+    width: 100%;
+    z-index: 9999;
+
+    height: 15vh;
+
+
+}
+nav{
+
+}
+h1{
+    position: absolute;
+    margin-top: 3.5vh;
+    margin-left: 5vh;
+    width: 24vh;
+    color: #e4d1ad;
+    transform-origin: top left;
+    background: #b50e12;
+    display: block;
+    font-family: 'Squada One', cursive;
+    z-index: 999;
+    
+}
+.headerh2{
+    position: absolute;
+    top: 8vh;
+    margin: 0%;
+    margin-left: 5vh;
+    width: 22vh;
+    color: black;
+    background: #e4d1ad;
+    font-family: 'Squada One', cursive;
+
+}
+
+.header-div1{
+    width: 33%
+    
+}
+.header-div2{
+    width: 33%;
+
+}
+.header-div3{
+    width: 34% ;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+.rarlog{
+    margin-left: 11.5vh;
+
+}
+.header-nav-list{
+    display: flex;
+    color: blanchedalmond;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-family: 'Squada One', cursive;
+    font-size: 3vh;
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    padding: 3vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(10, 10, 10);
+    
+    
+
+}
+.section1{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+}
+footer{
+
+}
+.div-span-noticias{
+    width: 50%;
+    height: 100%;
+    background-color: #070a0a;
+    display: flex;
+    align-items: center;
+    
+}
+
+.span-noticias{
+    display: flex;
+    position: absolute;
+    top: 29.3vh;
+    margin-left: 11vh;
+    background-color: rgb(10, 10, 10);
+    z-index: 12;
+
+    transform: rotate(270deg)
+
+}
+
+.noticias-vertical{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.div-imagen-lineup{
+    height: ;
+}
+
+.div-imagen-lineup{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(10, 10, 10);
+    /* border: 1px solid white; */
+}
+.img-lineup{
+    margin-top: 5vh;
+    margin-left: 2vh;
+    height: 55vh;
+    width: 80vh;
+}
+.contenedor-email-icono{
+    display: flex;
+}
+.button-email{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.noticias-vertical{
+    width: 25%;
+    height: 100%;
+    /* border: 1px white solid; */
+    display: flex;
+    align-items: center;
+    
+}
+.las-noticias{
+    padding: 7vh 0;
+    width: 75%;
+    height: 100%;
+    background-color: rgb(10, 10, 10);
+    /* border: 1px white solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.barrasgrises{
+
+}
+
+#news{
+    height: 60px;
+    width: 200px;
+    position: relative;
+}
+
+.uno{
+    
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.dos{
+    
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.tres{
+    
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.barra-gris-uno{
+    display: flex;
+    height: 30%;
+
+}
+.barra-gris-dos{
+    display: flex;
+    height: 30%;
+
+}
+.barra-gris-uno{
+    display: flex;
+    height: 30%;
+}
+.separacion-uno{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    
+}
+.separacion-dos{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    
+}
+.separacion-tres{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    
+    
+}
+.barra-gris-1{
+    margin-left: 1vh;
+    width: 85%;
+    height: 60%;
+    background-color: rgba(228,209,173,0.25);;
+
+
+}
+.barra-gris-2{
+    margin-left: 1vh;
+    width: 85%;
+    height: 60%;
+    background-color: rgba(228,209,173,0.25);;
+
+
+}
+.barra-gris-3{
+    margin-left: 1vh;
+    width: 85%;
+    height: 60%;
+    background-color: rgba(228,209,173,0.25);;
+
+
+}
+
+.separacion-dos-uno{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    height: 15%;
+    width: 100%;
+}
+
+.separacion-tres-uno{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    
+
+}
+
+
+
+
+.primera-fecha{
+    font-family: 'Squada One', cursive;
+    font-size: 2vh;
+    color: rgba(228,209,173,0.25);
+
+    
+    
+}
+
+.segunda-fecha{
+    font-family: 'Squada One', cursive;
+    font-size: 2vh;
+    color: rgba(228,209,173,0.25);
+
+    
+    
+}
+.tercera-fecha{
+    font-family: 'Squada One', cursive;
+    font-size: 2vh;
+    color: rgba(228,209,173,0.25);
+
+    
+    
+}
+
+.primer-h2{
+    color: #b50e12;
+    font-size: 2.5vh;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Sigmar One', cursive;
+    
+}
+
+.primer-h3{
+    margin-top: 2vh;
+    color: rgb(182, 184, 172);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Sigmar One', cursive;
+}
+
+.segundo-h2{
+    color: #b50e12;
+    font-size: 2.5vh;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Sigmar One', cursive;
+}
+
+.segundo-h3{
+    margin-top: 2vh;
+    color: rgb(182, 184, 172);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Sigmar One', cursive;
+}
+
+.tercer-h2{
+    color: #b50e12;
+    font-size: 2.5vh;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Sigmar One', cursive;
+}
+
+.tercer-h3{
+    margin-top: 2vh;
+    color: rgb(182, 184, 172);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Sigmar One', cursive;
+}
+.section2{
+    height: 5vh;
+    width: 100%;
+    background-color: rgba(228,209,173,0.25);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div-para-centrar{
+    height: 100%;
+    width: 80%;
+    display: flex;
+
+    
+}
+
+.section-2-div-1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.contenedor-email-icono{
+    height: 70%;
+    width: 5vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-icono{
+    height: 2vh;
+    width: 2vh;
+}
+
+.contenedor-form{
+    width: 80%;
+    height: 70%;
+}
+form{
+    width: 100%;
+    height: 100%;
+
+}
+.input-email{
+    text-decoration: none;
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 10, 10);
+
+}
+.input-email::placeholder{
+    
+    font-size: 2vh;
+}
+input{
+    outline: none;
+}
+
+.section-2-div-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contenedor-span-2-2{
+    background: #b50e12;
+    opacity: 1;
+    width: 25%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.01px solid rgb(34, 34, 34);
+
+}
+.rar-span{
+    font-size: 3vh;
+    font-family: 'Squada One', cursive;
+    color: seashell;
+    
+}
+
+.contenedor-fb{
+    background-color: rgb(216, 216, 216);
+    width: 25%;
+    height: 60%;
+    border: 0.01px solid rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor-fb:hover{
+    background-color: #b50e12;
+
+}
+
+.facebook{
+    
+    height: 100%;
+    width: 100%;
+}
+.contenedor-tw{
+    background-color: rgb(216, 216, 216);
+    width: 25%;
+    height: 60%;
+    border: 0.01px solid rgb(34, 34, 34);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.contenedor-tw:hover{
+    background-color: #b50e12;
+    
+}
+.twitter{
+    height: 100%;
+    width: 12%;
+}
+.contenedor-insta{
+    background-color: rgb(216, 216, 216);
+    width: 25%;
+    height: 60%;
+    border: 0.01px solid rgb(34, 34, 34);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.contenedor-insta:hover{
+    background-color: #b50e12;
+    
+}
+.insta{
+    height: 100%;
+    width: 100%;
+}
+.a-tw{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.a-fb{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.a-insta{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+
+
+
+
+.entradas-container{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-container{
+    height: 50%;
+    width: 30%;
+    background-color: rgba(228,209,173,0.25);
+    border: 0.5px solid rgb(172, 172, 172, 0.3);
+    display: flex;
+    
+
+    
+}
+.grid-container-form{
+    width: 30%;
+    height: 100%;
+    
+    
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+.grid-container-form div{
+    border: 0.5px solid rgb(172, 172, 172, 0.3);
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor-boton-tickets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.boton-form-tickets {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+    
+    height: 100%;
+    width: 100%;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border:1px solid #d83526;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.boton-form-tickets:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.boton-form-tickets:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+#tickets{
+    background-color: #b50e12;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+
+.font-entradas-grid{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+
+
+.flex-container-form{
+    border: 0.5px solid rgb(172, 172, 172, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.datos-aqui{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 2%;
+
+
+}
+
+.div-datos-aqui{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: initial;
+
+}
+.div-nombre{
+    margin-top: 2vh;
+
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+
+}
+.div-apellido{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inputs-form{
+    margin-left: 1vh;
+    height: fit-content;
+    width: 50%;
+}
+
+label{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+
+.img-tickets{
+    height: 30%;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section3{
+    margin-top: 3vh;
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 1vh;
+    row-gap: 1vh;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.section3 div{
+    background-color: rgb(10, 10, 10);
+    
+    display: flex;
+
+    
+    
+    
+
+}
+
+
+.bvb{
+    display: flex;
+    background-image: url(https://assets.mlk-festivals.com/artist/1107/hero_image/large_0546daedd8c9d3b21d231119ed9f24a9.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end
+
+    
+}
+.bvb:hover{
+    
+}
+
+.bfmv{
+    display: flex;
+    background-image: url(https://assets.mlk-festivals.com/artist/1255/hero_image/large_b4a8202b3bc55a1440176bdf175160fe.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end
+}
+.red{
+    display: flex;
+    background-image: url(./red.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end
+
+    
+}
+.breakingbenjamin{
+    display: flex;
+    background-image: url(https://lh3.googleusercontent.com/proxy/nJiPKGQwAnXKvj7_cDxsMJctmjaeVCgBOeToXRI_dT-e7OQ6WA9a_X49zQiYa2uZtkyrKVBpEIsln08GbGTbk7um_XnAMsQ7PFRjGOPxf0Xy77K1xZRDK4ngvLA);
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end
+
+    
+}
+.disturbed{
+    display: flex;
+    background-image: url(https://estacionk2.com/wp-content/uploads/2020/10/p05td9gz.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end
+
+    
+}
+
+.slipknot{
+    display: flex;
+    background-image: url(https://indiehoy.com/wp-content/uploads/2020/09/slipknot.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end
+
+    
+}
+.mychemicalromance{
+    display: flex;
+    background-image: url(https://www.todorock.com/wp-content/uploads/2019/11/my-chemical-romance.jpg.webp);
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end
+
+    
+}
+
+.lgante{
+    display: flex;
+    background-image: url(https://lh3.googleusercontent.com/proxy/mNfpRHzJsqO1NbAl9sxuS_9ePuceoWpackB9C92rvRe3sVw6QHM_dFOEU9ZGpniGJyE1dsdZv6u4sk5K5LodaxPBqokAOkiACcjNS1Nv7SmkogsHPOjH5FQFDArLlL2G);
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end
+
+    
+}
+
+
+
+
+.bvb-span{
+    background-color: #b50e12;
+    height: fit-content;
+    font-family: 'Squada One', cursive;
+    color: white;
+    font-size: 3vh;
+
+}
+.bfmv-span{
+    background-color: #b50e12;
+    height: fit-content;
+    font-family: 'Squada One', cursive;
+    color: white;
+    font-size: 3vh;
+
+}
+.red-span{
+    background-color: #b50e12;
+    height: fit-content;
+    font-family: 'Squada One', cursive;
+    color: white;
+    font-size: 3vh;
+
+}
+.breakingbenjamin-span{
+    background-color: #b50e12;
+    height: fit-content;
+    font-family: 'Squada One', cursive;
+    color: white;
+    font-size: 3vh;
+
+}
+.disturbed-span{
+    background-color: #b50e12;
+    height: fit-content;
+    font-family: 'Squada One', cursive;
+    color: white;
+    font-size: 3vh;
+
+}
+.slipknot-span{
+    background-color: #b50e12;
+    height: fit-content;
+    font-family: 'Squada One', cursive;
+    color: white;
+    font-size: 3vh;
+
+}
+.mcr-span{
+    background-color: #b50e12;
+    height: fit-content;
+    font-family: 'Squada One', cursive;
+    color: white;
+    font-size: 3vh;
+
+}
+.lgante-span{
+    background-color: #b50e12;
+    height: fit-content;
+    font-family: 'Squada One', cursive;
+    color: white;
+    font-size: 3vh;
+
+}
+
+.footer-container{
+    
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    background-image: url(https://assets.mlk-festivals.com/rar/festival/1/web_artwork/8a43272aa899d3938a4c96628c65ea7a.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.containers-patrocinadores{
+    height: 90%;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-bbva{
+    height: 20%;
+    width: 20%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBVA_Bancomer_logo.svg/1200px-BBVA_Bancomer_logo.svg.png);
+    background-size: cover;
+}
+
+.container-lacaja{
+    height: 30%;
+    width: 25%;
+    background-image: url(https://100seguro.com.ar/wp-content/uploads/2020/09/Logos-La-Caja-Generali_-RGB-01.png);
+    background-size: cover;
+}
+
+.container-manaos{
+    display: flex;
+    height: 19.5%;
+    width: 18%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Manaos_Logo.svg/1200px-Manaos_Logo.svg.png);
+    background-size: contain;
+}
+
